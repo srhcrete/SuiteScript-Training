@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">
+  <Default Extension=".js" ContentType="application/javascript"/><Default Extension=".png" ContentType="image/png"/><Default Extension=".gif" ContentType="image/gif"/><Default Extension=".txt" ContentType="text/plain"/><Default Extension=".json" ContentType="application/json"/><Default Extension=".md" ContentType="text/x-markdown"/><Default Extension=".bsd" ContentType="application/octet-stream"/><Default Extension=".xml" ContentType="application/xml"/><Default Extension=".map" ContentType="application/json"/><Default Extension=".vsixmanifest" ContentType="text/xml"/>
+</Types>
