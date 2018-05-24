@@ -4,6 +4,10 @@
  */
 
 define([], function () {
+    function pageInit(context) {
+        var customer = context.currentRecord;
+        alert('This customer has <n> product preferences')
+    }
     function fieldChanged(context) {
         var customer = context.currentRecord;
         var fieldId = context.fieldId;
@@ -41,6 +45,7 @@ define([], function () {
     }
 
     return {
+        pageInit: pageInit,
         fieldChanged: fieldChanged,
         saveRecord: saveRecord
     }
