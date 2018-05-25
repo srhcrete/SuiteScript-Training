@@ -3,10 +3,13 @@
  * @NScriptType ClientScript
  */
 
-define([], function () {
+define(['N/record'], function(record) {
     function pageInit(context) {
         var customer = context.currentRecord;
-        alert('This customer has <n> product preferences')
+        var numLines = customer.getLineCount({
+            sublistId: 'recmachcustomrecord_iii_prod_pref_item'
+        });
+        alert('This customer has ' + numLines + ' product preferences');
     }
     function fieldChanged(context) {
         var customer = context.currentRecord;
